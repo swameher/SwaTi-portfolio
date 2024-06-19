@@ -41,7 +41,7 @@ const Hero = () => {
                             animate="visible"
                             className="pb-16 text-5xl font-thin -tracking-tight lg:mt-16 lg:text-7xl"
                         >
-                            Swati Meher
+                            SWATI MEHER
                         </motion.h1>
                         <motion.div
                             variants={container(1)}
@@ -50,13 +50,11 @@ const Hero = () => {
                         >
                             <TypeAnimation
                                 sequence={[
-                                    "I'm a Software Engineer",
+                                    "Software Engineer",
                                     1000,
-                                    "I'm a Passionate Developer",
+                                    "Passionate Developer",
                                     1000,
-                                    "I'm a Freelancer",
-                                    1000,
-                                    "I'm a Machine Learning Engineer",
+                                    "Freelancer",
                                     1000
                                 ]}
                                 wrapper="span"
