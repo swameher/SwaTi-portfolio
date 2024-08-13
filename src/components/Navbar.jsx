@@ -40,7 +40,7 @@ const Navbar = () => {
           <FaMedium />
         </a>
         <a
-          href="/SwatiMeher_DataScientist.pdf"
+          href="/SwatiMeher-DataAnalyst.pdf"
           aria-label="Download Resume"
           download
           className="text-white hover:text-green-600 active:animate-ping"
