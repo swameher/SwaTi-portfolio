@@ -50,11 +50,9 @@ const Hero = () => {
                         >
                             <TypeAnimation
                                 sequence={[
+                                    "Data Analyst",
+                                    1000,
                                     "Software Engineer",
-                                    1000,
-                                    "Passionate Developer",
-                                    1000,
-                                    "Freelancer",
                                     1000
                                 ]}
                                 wrapper="span"
