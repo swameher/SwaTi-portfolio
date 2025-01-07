@@ -1,9 +1,12 @@
 import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpeg";
 
-export const HERO_CONTENT = `Welcome to my portfolio! I'm a dynamic developer passionate about driving innovation and enhancing efficiency through technical prowess. With over 2.6 years of immersive experience, I've honed my skills across various technologies. My goal is to optimize workflows and improve data accessibility, leveraging my diverse skill set to drive impactful solutions.`;
+export const HERO_CONTENT = `Hi, I’m a Data Analyst with 2.1 years of experience. I specialize in transforming data into actionable insights to drive business growth. From sales analysis and customer behaviour forecasting to financial reporting. Explore my portfolio to see how I use Power BI, Python, and SQL to solve real-world data challenges.`;
 
-export const ABOUT_TEXT = `I'm an enthusiastic and dedicated developer with a solid background in Python, SQL, and data visualization. With over 2 years of experience, I've mastered technologies like Numpy, Pandas, Matplotlib, Django, PostgreSQL, Linux and tools such as Tableau and AWS. My journey in software development started from a fascination with data-driven decision-making and a passion for streamlining workflows through automation. I excel in creating efficient solutions that enhance data accessibility and visualization, whether it's developing Python scripts for network configurations or designing user-friendly self-serve tools. I thrive in collaborative environments where I tackle complex challenges and drive innovation. Beyond work, I stay active exploring new technologies and creating projects. Always eager to learn and grow, I seize every opportunity to expand my skills and insights.`;
+export const ABOUT_TEXT = `Hi, I'm [Your Name], a Data Analyst with a background in data analysis, business intelligence, and predictive modeling. With over 2 years of experience at Capgemini Engineering, I've worked with industry leaders like Cisco to turn complex datasets into meaningful insights that help drive business decisions.
+I’m passionate about using data to solve real-world problems, from analyzing sales trends to optimizing financial strategies. Skilled in SQL, Python, and Power BI, I create dashboards, build models, and deliver actionable insights.
+I thrive in collaborative environments, continuously learning and contributing to impactful projects. I’m always excited about making data-driven decisions that drive business growth.
+In my free time, I stay updated on emerging data science trends and contribute to open-source projects. Feel free to explore my portfolio and reach out for collaboration!`;
 
 export const EXPERIENCES = [
   {
