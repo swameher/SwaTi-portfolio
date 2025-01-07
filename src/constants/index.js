@@ -4,13 +4,13 @@ import project2 from "../assets/projects/project-2.jpeg";
 export const HERO_CONTENT = `Hi, I’m a Data Analyst with 2.1 years of experience. I specialize in transforming data into actionable insights to drive business growth. From sales analysis and customer behaviour forecasting to financial reporting. Explore my portfolio to see how I use Power BI, Python, and SQL to solve real-world data challenges.`;
 
 export const ABOUT_TEXT = `
-Hi, I'm a Data Analyst with a background in data analysis, business intelligence, and predictive modeling. With over 2 years of experience at Capgemini Engineering, I've worked with industry leaders like Cisco to turn complex datasets into meaningful insights that help drive business decisions.
+<p>Hi, I'm a Data Analyst with a background in data analysis, business intelligence, and predictive modeling. With over 2 years of experience at Capgemini Engineering, I've worked with industry leaders like Cisco to turn complex datasets into meaningful insights that help drive business decisions.</p>
 
-I’m passionate about using data to solve real-world problems, from analyzing sales trends to optimizing financial strategies. Skilled in SQL, Python, and Power BI, I create dashboards, build models, and deliver actionable insights.
+<p>I’m passionate about using data to solve real-world problems, from analyzing sales trends to optimizing financial strategies. Skilled in SQL, Python, and Power BI, I create dashboards, build models, and deliver actionable insights.</p>
 
-I thrive in collaborative environments, continuously learning and contributing to impactful projects. I’m always excited about making data-driven decisions that drive business growth.
+<p>I thrive in collaborative environments, continuously learning and contributing to impactful projects. I’m always excited about making data-driven decisions that drive business growth.</p>
 
-In my free time, I stay updated on emerging data science trends and contribute to open-source projects. Feel free to explore my portfolio and reach out for collaboration!
+<p>In my free time, I stay updated on emerging data science trends and contribute to open-source projects. Feel free to explore my portfolio and reach out for collaboration!</p>
 `; 
 
 export const EXPERIENCES = [
