@@ -1,11 +1,10 @@
 import { FaPython } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { FaAws } from "react-icons/fa";
-import { SiDjango } from "react-icons/si";
-import { SiTensorflow } from "react-icons/si";
+import { SiPowerbi } from "react-icons/si";
+import { SiTableau } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
+import { SiMicrosoftexcel } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
-import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial: { y: -10, opacity: 0 },
