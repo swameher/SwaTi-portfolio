@@ -55,7 +55,7 @@ const Technologies = () => {
           whileInView="animate"
           className="rounded-2xl border-4 border-neutral-800 p-2"
         >
-          <FaAws size={40} className="text-white" />
+          <SiPowerbi size={40} className="text-white" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -63,7 +63,7 @@ const Technologies = () => {
           whileInView="animate"
           className="rounded-2xl border-4 border-neutral-800 p-2"
         >
-          <SiDjango size={40} className="text-blue-400" />
+          <SiTableau size={40} className="text-blue-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -71,7 +71,7 @@ const Technologies = () => {
           whileInView="animate"
           className="rounded-2xl border-4 border-neutral-800 p-2"
         >
-          <SiTensorflow size={40} className="text-orange-400" />
+          <SiScikitlearn size={40} className="text-orange-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -79,7 +79,7 @@ const Technologies = () => {
           whileInView="animate"
           className="rounded-2xl border-4 border-neutral-800 p-2"
         >
-          <SiScikitlearn size={40} className="text-green-400" />
+          <SiMicrosoftexcel size={40} className="text-green-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
