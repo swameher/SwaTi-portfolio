@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpeg";
 
-export const HERO_CONTENT = `Hi, I’m a Data Analyst with over 2.1 years of experience. I specialize in transforming data into actionable insights to drive business growth. From sales analysis and customer behaviour forecasting to financial reporting. Explore my portfolio to see how I use Power BI, Python, and SQL to solve real-world data challenges.`;
+export const HERO_CONTENT = `Hi, I’m a Data Analyst with over 3+ years of experience. I specialize in transforming complex data into actionable insights that drive business decisions. From trend analysis and business forecasting to building dashboards and predictive models, I work across the full data lifecycle. Explore my portfolio to see how I use SQL, Python, and Power BI to solve real-world data challenges.`;
 
 export const ABOUT_TEXT = `
 Hi, I'm into a Data Technology background where I used data analysis, business analyzing, and forecasting. With over 3+ years of experience at IT Corporte, I've worked with industry leaders like ABB, Cisco, Reliance to turn complex datasets into meaningful insights that help drive business decisions.
