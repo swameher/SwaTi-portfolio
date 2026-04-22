@@ -1,10 +1,11 @@
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaAws } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { FaAws } from "react-icons/fa";
-import { SiDjango } from "react-icons/si";
-import { SiTensorflow } from "react-icons/si";
-import { SiScikitlearn } from "react-icons/si";
-import { RiReactjsLine } from "react-icons/ri";
+import {
+  SiMicrosoftpowerbi,
+  SiSnowflake,
+  SiDatabricks,
+  SiScikitlearn
+} from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -19,7 +20,6 @@ const iconVariants = (duration) => ({
       repeatType: "reverse",
     },
   },
-  whileInView: { opacity: 0.1 },
 });
 
 const Technologies = () => {
@@ -33,63 +33,44 @@ const Technologies = () => {
       >
         Technologies
       </motion.h2>
+
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
+        
+        {/* Python */}
+        <motion.div variants={iconVariants(2.5)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
           <FaPython size={40} className="text-yellow-500" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
+
+        {/* PostgreSQL */}
+        <motion.div variants={iconVariants(3)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
           <BiLogoPostgresql size={40} className="text-cyan-400" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(5)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
+
+        {/* AWS */}
+        <motion.div variants={iconVariants(5)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
           <FaAws size={40} className="text-white" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
-          <SiDjango size={40} className="text-blue-400" />
+
+        {/* Power BI */}
+        <motion.div variants={iconVariants(2.5)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+          <SiMicrosoftpowerbi size={40} className="text-yellow-400" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(6)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
-          <SiTensorflow size={40} className="text-orange-400" />
+
+        {/* Snowflake */}
+        <motion.div variants={iconVariants(4.5)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+          <SiSnowflake size={40} className="text-blue-300" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
-          <SiScikitlearn size={40} className="text-green-400" />
+
+        {/* Databricks */}
+        <motion.div variants={iconVariants(4)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+          <SiDatabricks size={40} className="text-red-500" />
         </motion.div>
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          whileInView="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-2"
-        >
-          <RiReactjsLine size={40} className="text-red-400" />
+
+        {/* Machine Learning (Scikit-learn as representation) */}
+        <motion.div variants={iconVariants(4)} initial="initial" whileInView="animate" className="rounded-2xl border-4 border-neutral-800 p-2">
+          <SiScikitlearn size={40} className="text-orange-400" />
         </motion.div>
+
       </div>
     </div>
   );
