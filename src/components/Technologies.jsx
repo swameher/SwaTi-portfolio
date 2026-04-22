@@ -1,11 +1,6 @@
 import { FaPython, FaAws } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import {
-  SiMicrosoftpowerbi,
-  SiSnowflake,
-  SiDatabricks,
-  SiScikitlearn
-} from "react-icons/si";
+import { SiPowerbi, SiSnowflake, SiDatabricks, SiScikitlearn } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
