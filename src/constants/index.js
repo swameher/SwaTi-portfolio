@@ -12,7 +12,7 @@ In my free time, I stay updated on emerging AI/ML trends and contribute to open-
 
 export const EXPERIENCES = [
   {
-    year: "2025 - Present",
+    year: "April 2025 - Present",
     role: "Data Analyst",
     company: "ABB",
     description: `I leveraged my expertise in data analysis and data engineering to design architectures and build scalable data pipelines. I worked extensively on visualizing complex datasets with over 1 million rows, enabling actionable insights. I collaborated with global leadership teams, helping them use data-driven reports to inform strategic business decisions. As part of an accelerator program focused on business growth, I applied machine learning techniques using Python and Snowflake to generate predictive insights, supporting competitive bidding strategies and identifying opportunities for the next five years, along with other key business perspectives.`,
